@@ -1,21 +1,12 @@
-<h3>
-    Angular 2 Seed
-</h3>
-<nav>
-    <a [routerLink]="['/']">
-        Home
-    </a>
-    |
-    <a [routerLink]="['/recipe']">
-        Generate a recipe
-    </a>
-</nav>
-
-<main>
-    <router-outlet></router-outlet>
-</main>
-
-
-<footer>
-    © 2017
-</footer>
+<div style="background-color: mediumaquamarine; height: 60px; position: fixed; top: 0; left: 0; width: 100%; display: flex; justify-content: center;">
+    <h3>
+        The ML Bar
+    </h3>
+</div>
+<div style="height: 100%; background-color: azure; display: flex; justify-content: center; position: fixed; top: 60px; left: 0; padding-left: 15%; padding-right: 15%; width: 70%;">
+    <div>
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+    </div>
+</div>
